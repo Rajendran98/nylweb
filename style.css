@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato';
     margin: 0;
   }
 
@@ -8,16 +8,17 @@ body {
 }
 
 .logo{
-    padding-left: 35px;
-    margin: 20px;
+    padding-left: 15px;
+    margin-left: 90px;
+    margin-top: 30px;
     width: 80px;
 }
 .topnav {
     overflow: hidden;
     background-color: white;
     float: right;
-    padding-right: 100px;
-    margin: 20px;
+    padding-right: 80px;
+    margin: 30px;
   }
   
   .topnav a {
@@ -25,7 +26,7 @@ body {
     font-family: sans-serif;
     color: #1d2023;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 12px;
     text-decoration: none;
     font-size: 14px;
   }
@@ -37,11 +38,11 @@ body {
   
   .heading{
     font-size: 52px;
-    line-height: 1.3em;
-    font-weight: 700;
+    font-family: 'Lato';
+    font-weight: 600;
     padding-bottom: 40px;
     max-width: 950px;
-    margin: 120px 0px 0px 50px;
+    margin: 150px 0px 0px 100px;
 }
  
 
@@ -93,7 +94,7 @@ body {
 
 
   .button4{
-    background-color: black;
+    background-color: #1d2023;;
     color: white;
     border-radius: 10px;
     border: 2px solid white;
@@ -105,7 +106,7 @@ body {
 .lef{
     float: right;
     margin-top: 150px;
-    margin-right: 25px;
+    margin-right: 100px;
 }
 .image{
     position: relative;
@@ -137,7 +138,18 @@ body {
     padding: 10px;
     height: 100%;
   }
+  .columnx {
+    float: left;
+    width: 45%;
+    padding: 10px;
   
+  }
+  .columny {
+    float: left;
+    width: 55%;
+    padding: 10px;
+  
+  }
   /* Clear floats after the columns */
   .row:after {
     content: "";
@@ -146,20 +158,20 @@ body {
   }
 
   .success{
-      margin: 50px;
+      margin: 70px 50px 50px 80px;
       font-size: 48px;
     line-height: 1.2em;
     padding-bottom: 20px;
   }
 
   .suc{
-    font-size: 22px;
+    font-size: 24px;
     letter-spacing: normal;
     line-height: 38px;
     font-weight: 600;
     color: #1d2023;
-    padding-top: 20px;
-    padding-right: 35px;
+    padding-top: 40px;
+    padding-right: 80px;
   }
 
   .col-container {
@@ -182,12 +194,16 @@ body {
   }
 
   .head{
-      padding-left: 60px;
+      padding-left: 80px;
   }
 
   .toast{
-    padding-left: 60px;
+    padding-left: 80px;
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 10px;
     color: #5c5c5c;
+   
   }
 
  
@@ -220,7 +236,8 @@ body {
 
  .land{
     background: #ececed;
-    padding: 30px;
+    padding: 50px 50px 50px 100px;
+   
  }
 
  .land h5{
@@ -254,15 +271,16 @@ body {
    margin: 0px;
    font-size: 40px;
     line-height: 52px;
-    padding: 120px 0px 120px 50px;
+    padding: 120px 0px 120px 100px;
     color: white;
  }
 
   .column1 {
     float: left;
     width: 33%;
-    padding: 10px;
+    padding: 20px;
     height: 100%;
+    
   }
   
   
@@ -281,16 +299,18 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    background-color: #292e31;
+    color: white;
   }
   
   input[type=submit] {
     width: 100%;
-    background-color: rgb(24, 22, 22);
+    background-color:  #045089;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 50px;
     cursor: pointer;
   }
   
@@ -326,14 +346,15 @@ body {
   }
   .footer p{
       color: #8e979d;
-      padding: 0;
+      padding-left: 80px;
   }
   .fotnav a {
 
     font-family: sans-serif;
     color: white;
     text-align: center;
-   
+    border-right: 1px solid;
+    border-color: hsla(0,0%,100%,.05);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 14px;
@@ -356,7 +377,6 @@ body {
   }
   .col2 {
     flex: 1;
-   
   }
   /*
   .top{
