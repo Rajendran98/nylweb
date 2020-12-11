@@ -1,7 +1,27 @@
 body {
     font-family: 'Lato';
+    overflow-x: hidden; /* Hide horizontal scrollbar */
     margin: 0;
   }
+  .bg-light{
+    background-color: white !important;
+  }
+  .navbar-right {
+    position: absolute;
+    right: 0;
+  }
+  .relative {
+    position: relative;
+  }
+  
+  .img-fluid{
+    padding-left: 15px;
+    margin-top: 15px;
+   
+    width: 80px;
+  }
+
+
 
 .top{
     background-color: white;
@@ -88,8 +108,10 @@ body {
     color: white;
   }
 
-  .button .button5 .ex {
-      margin-left: 10px;
+  .ex {
+    margin-left: 100px;
+     margin-bottom: 45px;
+     
   }
 
 
@@ -108,9 +130,12 @@ body {
     margin-top: 150px;
     margin-right: 100px;
 }
+.lefs{
+  float: left;
+}
 .image{
     position: relative;
-    height: 680px;
+ 
     width: 100%;
 }
 
@@ -197,7 +222,7 @@ body {
       padding-left: 80px;
   }
 
-  .toast{
+  .toasts{
     padding-left: 80px;
     font-size: 14px;
     line-height: 20px;
@@ -262,7 +287,7 @@ body {
 
  .contact{
     width: 100%;
-     background-color:  #1d2023;
+     background-color: #1d2023;
  }
 
  .contact h3{
@@ -351,7 +376,7 @@ body {
   .fotnav a {
 
     font-family: sans-serif;
-    color: white;
+    color: white !important;
     text-align: center;
     border-right: 1px solid;
     border-color: hsla(0,0%,100%,.05);
@@ -417,3 +442,173 @@ body {
     
   }
   */
+
+  @media screen and (max-width:1024px)
+	{
+    .navbar-right {
+      position: relative;
+      right: 0;
+    }
+    
+        .navbar-toggler {
+            right: 0;
+            position: absolute;
+            margin: 10px;
+          } 
+
+}   
+
+@media only screen and (max-width:768px) {
+  html, body {width: auto!important; overflow-x: hidden!important} 
+  .navbar-brand {
+    max-width: 100px;
+  }
+  
+  .navbar-toggler {
+    right: 0;
+    position: absolute;
+    margin: 10px;
+  }
+  .navbar-right {
+    position: relative;
+    right: 0;
+  }
+
+  .img-fluid{
+    margin-left: 20px;
+}
+.heading{
+
+  margin: 130px 0px 0px 20px;
+  font-size: 42px;
+  font-weight: 700;
+  max-width: 850px; 
+}
+
+.ex {
+  margin-left: 20px;
+  margin-bottom: 25px;
+  
+   
+}
+
+.columnx {
+
+  width: 100%;
+  padding: 10px;
+
+}
+.columny {
+  
+  width: 100%;
+  padding: 10px;
+
+}
+
+.success{
+  margin: 50px 10px 10px 10px;
+  font-size: 40px;
+line-height: 1.2em;
+padding-bottom: 25x;
+}
+
+.suc{
+  font-size: 24px;
+  letter-spacing: normal;
+  line-height: 38px;
+  font-weight: 600;
+  color: #1d2023;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-container {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+.col {
+  box-shadow: 0 0 40px 10px rgba(0,0,0,.05);
+  flex: 100%;
+  padding: 25px;
+  margin:30px
+}
+.col i {
+    font-size: 24px;
+}
+.head{
+  padding-left: 20px;
+}
+.toasts{
+  padding-left: 20px;
+}
+
+.col-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  background: #1d2023;
+  
+}
+.col1 {
+  flex: 100%;
+  
+}
+
+.col-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 60px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  background: #1d2023;
+  
+}
+.col2 {
+  flex: 100%;
+}
+
+
+.land{
+  background: #ececed;
+  padding: 50px 50px 50px 20px;
+ 
+}
+
+.contact h3{
+
+  max-width: 100%;
+ margin: 0px;
+ font-size: 36px;
+  line-height: 52px;
+  padding: 40px 0px 10px 20px;
+  color: white;
+}
+
+.lef{
+  float: left;
+  margin-top: 30px;
+  margin-right: 0px;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+.column1 {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+
+.fotnav{
+  overflow: hidden;
+  margin-top: 10px;
+  float: left;
+  padding-right: 80px;
+  padding-left: 10px;
+ 
+}
+.footer p {
+  color: #8e979d;
+  padding-left: 20px;
+}
+}
